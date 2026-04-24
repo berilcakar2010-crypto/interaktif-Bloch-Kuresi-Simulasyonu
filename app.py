@@ -42,8 +42,6 @@ st.markdown(f"""
     <p><b>[SYSTEM_STATUS]:</b> Aktif</p>
     <p><b>[COORDINATES]:</b> θ: {theta:.4f} | φ: {phi:.4f}</p>
     <hr style="border: 0.5px solid #00FF00;">
-    <p style="color: #FF0000;">● Kırmızı Ok: Temel Durum (|0⟩)</p>
-    <p style="color: #00FF00;">● Yeşil/Mavi Ok: Senin Durumun</p>
 </div>
 """, unsafe_allow_html=True)
 
