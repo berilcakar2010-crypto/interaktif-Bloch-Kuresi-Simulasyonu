@@ -5,9 +5,9 @@ from qiskit.visualization import plot_bloch_multivector
 from qiskit.quantum_info import Statevector
 
 # Sayfa Ayarları
-st.set_page_config(page_title="Kuantum Bloch Analizi", layout="centered")
+st.set_page_config(page_title="Kuantum Bloch Simülasyonu", layout="centered")
 
-# Bilimkurgu Arayüzü (CSS)
+# Arayüz (CSS)
 st.markdown("""
     <style>
     .main { background-color: #000000; }
