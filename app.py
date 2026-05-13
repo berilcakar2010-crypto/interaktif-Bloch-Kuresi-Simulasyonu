@@ -5,7 +5,7 @@ from qiskit.visualization import plot_bloch_multivector
 from qiskit.quantum_info import Statevector
 
 # Sayfa Ayarları
-st.set_page_config(page_title="Kuantum Bloch Simülasyonu", layout="centered")
+st.set_page_config(page_title="Kuantum Bloch Küresi Simülasyonu", layout="centered")
 
 # Arayüz (CSS)
 st.markdown("""
@@ -16,7 +16,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.markdown("<h1 style='text-align: center; color: #00FF00; text-shadow: 0 0 10px #00FF00;'>🌐 BLOCH KÜRESİ SİMÜLASYONU</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #00FF00; text-shadow: 0 0 10px #00FF00;'> BLOCH KÜRESİ SİMÜLASYONU</h1>", unsafe_allow_html=True)
 
 # Kontrol Paneli (Sliderlar)
 col1, col2 = st.columns(2)
@@ -39,11 +39,10 @@ st.pyplot(fig)
 # Bilgi Panelleri
 st.markdown(f"""
 <div style="border: 2px solid #00FF00; padding: 15px; border-radius: 10px;">
-    <p><b>[SYSTEM_STATUS]:</b> Aktif</p>
-    <p><b>[COORDINATES]:</b> θ: {theta:.4f} | φ: {phi:.4f}</p>
+    <p><b>[KOORDİNATLAR]:</b> θ: {theta:.4f} | φ: {phi:.4f}</p>
     <hr style="border: 0.5px solid #00FF00;">
 </div>
 """, unsafe_allow_html=True)
 
 st.write("---")
-st.markdown("** GÖZLEMCİ NOTU:** Vektör ekvator düzlemine yaklaştıkça sistem **Süperpozisyon** evresine girer.")
+st.markdown(" GÖZLEMCİ NOTU: Vektör ekvator düzlemine yaklaştıkça sistem **Süperpozisyon** evresine girer.")
